@@ -7,7 +7,7 @@
             <script src='js/MyJavaScript.js'></script>
     <meta name='description' content="This website is a testing grounds for all random codes while I'm training, until I figure out what I want to do with all this code." /> 
     <meta name="keywords" content="testing, coding, programming, html, css, javascript, job" />
-    <meta http-equiv="refresh" content="100" />
+    <meta http-equiv="refresh" content="10000" />
     <meta name="robots" content="index,follow" />
     <meta http-equiv='Cache-Control' content='private' />
     <meta http-equiv="expires" content="0" />
@@ -30,8 +30,36 @@
     
     <table width='1080px' align='center' border='1' cellspacing='0' cellpadding='100'>
     <tr>
-        <th><input type='text' name='myname' /><br>
-            <input type='password' name='userpass' /></th>
+        <th>
+            <p id='coords'></p>
+                <button onclick="getMyPosition()">Find Me!</button>
+                <script>
+                var MyLoc = document.getElementById('coords')
+                function getMyPosition() {
+                    if (navigator.geolocation)   {
+                        navigator.geolocation.getCurrentPosition(showPosition);
+                        
+                    } else {
+                        MyLoc.innerHTML = "Geolocation is not support by this.";
+                    }
+                }
+                        
+                    
+            
+            
+            
+                </script>
+        
+        <br><br><br>
+        
+        
+            <div id='t35t'>This is the best test ever</div>
+            
+            
+            
+        
+        <br><br><br><br>
+        </th>
         <th colspan='2'>
                     <select name='gender'>
                         <option value='na' disabled='disabled' selected='selected'>Select Gender</option>
@@ -67,6 +95,8 @@
             
             
             </script>
+            
+            
         
         
         
@@ -147,13 +177,57 @@
         
      
     <hr/>
+
+<p id='coords'></p>
+                <button onclick="getmyposition()">Find Me!</button>
+                <script>
+                var MyLoc = document.getElementById('coords');
+                function getMyPosition() {
+                    if (navigator.geolocation) {
+                        navigator.geolocation.getCurrentPosition(showPosition);
+                    } else {
+                        MyLoc.innerHTML = "Geolocation is not support by this.";
+                    }
+                }
+                function showPostion(position) {
+                    MyLoc.innerHTML = 'latitude: ' + position.coords.latitude + 
+                                        <br>"longitude: " + position.coords.longitude;
+                }
+                </script>
+
+<script>
+    if(typeof(Storage) !=='undefined') {
+        // we can accept localStorage
+        alert('Accepted');
+    } else {
+        // we cannot accept localStorage
+        alert('No localStorage Accepted');
+    }
+</script>
+
+<script> 
+    localStorage.MyName = '';
+</script>
+
+<script>
+    alert(localStorage.MyName)
+</script>
+
+
     <div>
         
         <div style="display: inline-block; height: 70px; width: 70px; background-color: blue; color: red;">This is <br> my block</div>
     
         <br>
         
-    <h1>Hello</h1>
+        <style>
+            h1 { color: red; font-size: 35px }
+        
+        </style>
+        
+    <div style="color: red; font-size: 32px">Hello there wdoishgrealjk'</div>
+        
+        <h1>Hello</h1>
         <p>hello my name is shlomo</p>
         <h2>also hello but this time smaller</h2>
         <div style="color: dodgerblue; padding: 5px; border: 1px solid green; margin: 2px; background-color: aquamarine;"><p>this is my page</p>
@@ -185,19 +259,19 @@
  <br/>  <pre style="font-variant-ligatures: normal">  changes are made as I make them    
            changes are made as I make them    
         <a href="#top">Go to Top</a>
+        <a href="#top">Go to Top</a>
         
            </pre>
     
     <a href="http://aol.com" title="THE INTERNET" name="pizza" id="shlomoslink">AOL.com</a>
     
-    
-      
-    <dl>
-        <dt>Dinosaur</dt>
-            <dd>has a smeller</dd>
-    </dl>
-    
-        </div>
+   <div class='testclass' >    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus enim, scelerisque et maximus consectetur, scelerisque a felis. Ut fermentum ligula nulla, eu ultricies metus lobortis nec. Nunc ullamcorper urna justo. Curabitur sit amet arcu maximus elit scelerisque consequat sit amet at odio. Nullam felis magna, porta vitae dui eget, congue semper urna. Etiam et iaculis sem. Suspendisse at efficitur odio, quis hendrerit eros. Mauris tincidunt purus nisi, eget fermentum tellus porttitor molestie. Phasellus ex odio, consectetur ac euismod vel, volutpat ornare purus. Mauris non dictum ipsum, vitae finibus ligula. Duis sodales eget lacus egestas lobortis. Etiam gravida lectus a tellus rhoncus, quis ultricies mauris aliquet. Mauris tempor vehicula nibh, id tincidunt massa elementum nec.
+        </div></div>
+
+
+<p> Aliquam fermentum vulputate lorem at interdum. Mauris sed bibendum nulla, eu imperdiet eros. Aenean cursus sem ac mauris efficitur auctor. In a iaculis libero, ut finibus lorem. Morbi et dapibus ante. Maecenas efficitur ultrices lacus, at commodo tellus ultrices ut. Ut elementum, tortor sed aliquam faucibus, risus ex accumsan diam, vitae faucibus sapien turpis placerat diam. Duis tincidunt euismod commodo. Quisque venenatis congue posuere. Suspendisse sed lectus quis libero elementum ultricies.</p>
+
+Sed in arcu eu risus convallis auctor nec sodales erat. Quisque quis euismod odio. Nullam sem nunc, blandit sit amet mollis et, bibendum vitae tortor. Curabitur ex risus, ultrices at ornare id, elementum ut nibh. Curabitur ut ultrices justo. Sed ipsum massa, sagittis nec consequat eu, convallis in nulla. Praesent egestas purus vitae risus bibendum, in bibendum felis malesuada. In aliquam arcu et pellentesque maximus. Nam ante enim, volutpat vel aliquet in, maximus in nisi.
         
     
     <hr/>

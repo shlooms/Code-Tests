@@ -1,0 +1,103 @@
+/* All CSS was written by Shlomo */ 
+
+body{
+    
+    -webkit-font-family: -webkit-font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    -moz-font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    -o-font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    -ms-font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    color:black; 
+    background:white; font-size: 14px; 
+}
+
+#t35t {
+    
+    color: cadetblue; 
+    
+}
+    
+.id {
+    font-style: italic; font-weight: bold; text-decoration: overline; text-decoration-color: red; font-size: 20px;
+    
+}
+
+.mainbody {
+    text-align: left; 
+}
+
+.overflow {
+    
+    border: 1px solid; border-color: blue; width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; 
+}
+
+@media handheld {
+    
+    
+}
+
+.intro { margin: 50px; padding: 25px; text-align: center; border: solid 1px; border-color: red;
+    
+}
+
+[lang=abc] { 
+    border:1px solid green; margin:5px; padding: 12px; width: 300px; text-align: center;
+
+}
+
+.repeat { 
+    background-image: url(morty.jpg); background-repeat: repeat-x; background-position: bottom; 
+}
+
+p { 
+    border: 1px; border-color: red; color: indianred; 
+}
+
+p.margin {
+        border: 1px solid red; 
+}
+
+p { display: none;}
+
+body { 
+    border: 1px solid black; border-radius:1px 1px 1px 1px; margin: 5px; padding: 10px; ; background-color: #F7F7F7; background-attachment: scroll;  
+}
+    
+.row3 {
+    
+    text-align: center; 
+    
+}
+
+#id {
+     resize: both;  
+}
+
+.rotated {
+   background-color: red; 
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 20px;
+    background-color: red; 
+    
+    
+}
+
+/* the a: liks are important to have on your website */ 
+
+a:link { 
+    color: blue
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+a:hover {
+    color: darkblue; text-decoration: overline red; 
+}
+
+a:active {
+    color: yellow; 
+}
